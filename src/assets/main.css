@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
 
 body {
-  background: #f2f2f2;
+  background: #e5eae1;
   color: #444;
   margin: 0;
 }
@@ -12,7 +12,7 @@ body * {
 /* header */
 header {
   text-align: center;
-  background: #e7e7e7;
+  background: #478020;
   padding-top: 20px;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@ header h1 {
   font-size: 2em;
   padding-top: 25px;
   margin-left: 15px;
-  color: #777;
+  color: #ffffff;
   transform: rotate(2deg);
 }
 
@@ -38,7 +38,7 @@ header h1 {
 }
 .task {
   padding: 6px 20px;
-  background: #fff;
+  background: #d4eec3;
   margin-top: 20px;
   border-radius: 4px;
   box-shadow: 2px 4px 6px rgba(0,0,0,0.05);
@@ -56,7 +56,7 @@ header h1 {
   font-size: 1.4em;
   margin-left: 6px;
   cursor: pointer;
-  color: #bbb;
+  color: #478020;
 }
 .task i.active {
   color: #ff005d;
@@ -82,7 +82,7 @@ header h1 {
 
 /* new task form */
 .new-task-form {
-  background: #e7e7e7;
+  background: #478020;
   padding: 20px 0;
 }
 form {
@@ -115,7 +115,7 @@ form input {
   border: 1px solid #ffd859;
   background: #ffe9a0;
   color: #3a3a3a;
-  padding: 5px 0;
+  padding: 15px 20px;
   text-align: center;
   margin: 30px auto;
 }
